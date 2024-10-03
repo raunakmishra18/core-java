@@ -1,4 +1,4 @@
-package practices;
+// package practices;
 import java.util.*;
 public class factoriall {
     public static void main(String[] args) {

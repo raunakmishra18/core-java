@@ -1,4 +1,4 @@
-package practices;
+
 import java.util.Scanner;
 public class gcd {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package practices;
+// package practices;
 import java.util.Scanner;
 
 public class greaternumber {
