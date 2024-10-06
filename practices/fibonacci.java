@@ -1,13 +1,14 @@
-import java.util.*;
+import java.util.Scanner;
 public class fibonacci {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("welcome to finonacci series");
         System.out.println("enter the number uo to ");
         int number=sc.nextInt();
-        
+        System.out.println("printfibonacci");
+        printfibonacci(number);
    }
-   public static void main(int num) {
+   public static void printfibonacci(int num) {
     if(num<0) return;
     System.out.println("0 ");
     if (num==0) return;
