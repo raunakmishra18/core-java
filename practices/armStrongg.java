@@ -21,7 +21,7 @@ public class armStrongg{
             num=num/10;
             finalNumber=finalNumber+pow(digit, Digits);
         }
-        return finalNumber==num;
+        return finalNumber==numCopy;
     }
     public static int pow(int num1,int num2){
         int result=num1;
