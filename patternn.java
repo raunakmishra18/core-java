@@ -5,7 +5,7 @@ public class patternn {
         System.out.println("enter the no of rows");
         int row = sc.nextInt();
         firstPattern(row);
-        // secoundPattern(row);
+        secoundPattern(row);
     }
     public static void firstPattern(int rows){
         int row=0;
@@ -21,19 +21,20 @@ public class patternn {
         }
         System.out.println();
     }
+
+
+// REVERSE PATTERN
+
+    public static void secoundPattern(int row){
+        int roww=row;
+        while (roww>0) {
+            int i=0;
+            while (i<roww) {
+                System.out.print(" *");
+                i++;
+            }
+            System.out.println();
+            roww--;
+        }
+    }
 }
-
-
-//     public static void secoundPattern(int rows){
-//         int row=rows;
-//         while (rows>0) {
-//             int i=0;
-//             while (i<rows) {
-//                 System.out.println(" *");
-//                 i++;
-//             }
-//         }
-//         System.out.println( );
-//         row--;
-//     }
-// }
