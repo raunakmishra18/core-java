@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class arraysumaverage {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
@@ -27,8 +27,8 @@ public class arraysumaverage {
         return sum;
     }
     public static int avgarray(int[]nums) {
-        long sum=sumarray(nums);
-        int avg=(int)(sum/nums.length);
+        long avgsum=sumarray(nums);
+        int avg=(int)(avgsum/nums.length);
         return avg;
     }
 }
