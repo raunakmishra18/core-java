@@ -13,4 +13,12 @@ public class arrayutility {
         }
         return nums;
     }
+    public static void displayArr(int[] nums) {
+        int i=0;
+        while (i<nums.length) {
+            System.out.print(nums[i] +" ");
+            i++;
+        }
+        System.out.println();
+    }
 }
